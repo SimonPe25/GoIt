@@ -115,7 +115,7 @@ select {
     color: #000000;
 }
 
-.nav,
+.nav__contact,
 .nav__list {
     display: flex;
 }
@@ -137,7 +137,7 @@ select {
 }
 
 .mail {
-    margin-left: 332px;
+    margin-left: 193px;
 }
 
 .link-phone {
@@ -173,6 +173,7 @@ select {
     padding: 10px 32px 10px 32px;
     background-color: #2196F3;
     border-radius: 5px;
+    border: none;
     cursor: pointer;
     font-family: 'Roboto';
     font-style: normal;
@@ -295,9 +296,12 @@ select {
 
 /* footer*/
 .footer {
+    display: flex;
+    flex-direction: column;
     padding: 61px 0 10px 216px;
     background-color: #2F303A;
-    height: 252px;
+    height: 187px;
+    width: 100%;
 }
 
 .flogo>span {
@@ -306,19 +310,21 @@ select {
 
 .address {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    font-style: normal
 }
+
+address { all: initial }
 
 .header__logo {
     height: 28%;
 }
 
 .cnt {
-    margin-top: 6px;
+    margin-top: 5px;
     color: rgba(255, 255, 255, 0.6);
 }
